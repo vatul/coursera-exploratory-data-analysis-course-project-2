@@ -5,7 +5,6 @@ if(!exists("NEI")){
 if(!exists("SCC")){
   SCC <- readRDS("./data/Source_Classification_Code.rds")
 }
-
 library(ggplot2)
 
 # Of the four types of sources indicated by the type (point, nonpoint, onroad, nonroad) variable, 
