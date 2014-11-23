@@ -9,7 +9,6 @@ if(!exists("SCC")){
 if(!exists("NEISCC")){
   NEISCC <- merge(NEI, SCC, by="SCC")
 }
-
 library(ggplot2)
 
 # Compare emissions from motor vehicle sources in Baltimore City with emissions from motor 
